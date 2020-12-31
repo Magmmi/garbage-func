@@ -1,6 +1,7 @@
+const colors = require('./src/colors-ref');
+
 exports.printmyname = function() {
     console.log("magmmi");//
-    console.log('\x1b[36m%s\x1b[0m', 'I am cyan');  //cyan
 }
 
 exports.shuffle = async array => {
@@ -13,3 +14,8 @@ exports.shuffle = async array => {
     return array
 }
 
+exports.print = {
+    red = async () => {
+        console.log(colors.BgBlue, 'I am cyan');
+    }
+}
