@@ -15,7 +15,7 @@ exports.shuffle = async array => {
 }
 
 exports.print = {
-    red = () => {
+    red: function () {
         console.log(colors.BgBlue, 'I am cyan');
     }
 }
