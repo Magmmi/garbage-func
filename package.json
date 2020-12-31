@@ -1,0 +1,19 @@
+{
+  "name": "garbage-func",
+  "version": "1.0.0",
+  "description": "Garbage func",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Magmmi/garbage-func.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Magmmi/garbage-func/issues"
+  },
+  "homepage": "https://github.com/Magmmi/garbage-func#readme"
+}
