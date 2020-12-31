@@ -1,6 +1,6 @@
 {
   "name": "garbage-func",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Garbage func",
   "main": "index.js",
   "scripts": {
@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/Magmmi/garbage-func/issues"
   },
-  "homepage": "https://github.com/Magmmi/garbage-func#readme"
+  "homepage": "https://github.com/Magmmi/garbage-func#readme",
+  "dependencies": {
+    "colors": "^1.4.0"
+  },
+  "devDependencies": {}
 }
