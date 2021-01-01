@@ -14,6 +14,14 @@ exports.shuffle = async array => {
     return array
 }
 
+exports.bufferToArray = async (buffer) => {
+    return await bufferToString(buffer).value.split(',')
+}
+
+exports.bufferToString = async (buffer) => {
+    return await getString(buffer);
+}
+
 exports.print = {
     red: function () {
         console.log(colors.BgBlue, 'I am cyan');
