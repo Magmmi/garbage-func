@@ -18,7 +18,7 @@ exports.bufferToArray = async (buffer) => {
     return await bufferToString(buffer).value.split(',')
 }
 
-exports.bufferToString = async (buffer) => {
+const bufferToString = async (buffer) => {
     return await getString(buffer);
 }
 
