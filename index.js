@@ -1,4 +1,5 @@
 const colors = require('./src/colors-ref');
+const { getString } = require('@gd-com/utils')
 
 exports.printmyname = function() {
     console.log("magmmi");//
