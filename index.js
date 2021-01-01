@@ -16,6 +16,7 @@ exports.shuffle = async array => {
 }
 
 exports.bufferToArray = async (buffer) => {
+    console.log(buffer);
     return await bufferToString(buffer).value.split(',')
 }
 
